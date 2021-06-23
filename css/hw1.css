@@ -1,0 +1,118 @@
+body{
+    padding: 10px;
+    margin: 2px;
+}
+header{
+    text-align: center;
+    background:#666666;
+    background-image: url('../images/flywheel.jpg');
+    background-size: auto;
+    padding: 20px;
+}
+h1{
+    color: #ffffff;
+    font-variant-caps: petite-caps;
+    font-size: 250%;
+    font-family: serif;
+}
+nav>a{
+    text-decoration: none;
+    display: inline-block;
+    background:#ffffff;
+    color: #000000;
+    padding: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120%;
+    width: 15%;
+    opacity: 0.7;
+}
+a:hover{
+    background:#ffffff;
+    opacity: 1;
+}
+.active{
+    background:#ffffff;
+    opacity: 1;
+}
+aside{
+    float: left;
+    display: inline-block;
+    background:#005f5f;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    border-radius: 10px;
+}
+section{
+    display: inline-block;
+    float: left;
+    margin: 20px;
+    width: 50%;
+    font-size: auto;
+}
+h2{
+    font-size: 180%;
+    text-decoration: underline;
+}
+img{
+    width: 80%;
+    padding: 10px;
+    margin: 15px;
+    display: block;
+}
+table{
+	font-size: 100%;
+	padding: 10px;
+	color: #000000;
+	border-spacing: 2px;
+	margin: 0 auto;
+}
+tr>th{
+	color:#ffffff;
+	background-color: #8bb539;
+	-webkit-background: linear-gradient(#35b6a5,#6c4ff5);
+	-o-background: linear-gradient(#35b6a5,#6c4ff5);
+	-moz-background: linear-gradient(#35b6a5,#6c4ff5);
+	-ms-background: linear-gradient(#35b6a5,#6c4ff5);
+	background: linear-gradient(#35b6a5,#6c4ff5);
+	height: 50px;
+	border-bottom: 3px solid #000000;
+	color: #ffffff;
+	-webkit-border-radius:4px 4px 0 0;
+	-o-border-radius:4px 4px 0 0;
+	-moz-border-radius:4px 4px 0 0;
+	-ms-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;
+}
+tr>th:nth-child(1){
+	text-align: left;
+}
+tr>td:nth-child(1){
+	text-align: left;
+	width: 60vh;
+}
+tr>td:nth-child(2){
+	text-align: center;
+	width: 20vh;
+}
+tr>td:nth-child(3){
+	text-align: center;
+	width: 20vh;
+}
+
+tr>td{
+	margin: 10px;
+	padding: 7px;
+	color: #ffffff;
+	background-color: #000000;
+	border-radius: 2px;
+	height: 4vh;
+	opacity: 0.7;
+	text-shadow:0 0 3px #AA0000, 0 0 5px #AA00FF;
+}
+tr>td:hover{
+	opacity: 1;
+}

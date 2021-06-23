@@ -1,0 +1,46 @@
+body{
+    margin: 2%;
+    font-size: 150%;
+}
+header,footer{
+    text-align: center;
+    column-width: 50%;
+}
+h1{
+    color: white;
+}
+.half{
+    width: 45%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+}
+.whole{
+    clear:both;
+    color: white;
+}
+p{
+    color: white;
+}
+nav{
+    font-variant: small-caps;
+    font-size: 100%;
+    font-family: Arial,"Time New Roman",serif;
+}
+ul{
+    color: white;
+}
+nav a{
+    width: 22%;
+    display: inline-block;
+    background: #FFFFFF;
+}
+h2{
+    color: white;
+}
+footer{
+    clear: both;
+}
+img{
+    width: 15%
+}

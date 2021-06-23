@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UM home page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/homep2.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+			input[type=text] {
+  				width: 135px;
+  				box-sizing: border-box;
+  				border: 2px solid #ccc;
+  				border-radius: 4px;
+ 				font-size: 16px;
+ 				background-color: white;
+ 				background-position: 10px 10px; 
+  				background-repeat: no-repeat;
+  				padding: 12px 10px 12px 40px;
+  				-webkit-transition: width 0.4s ease-in-out;
+  				transition: width 0.4s ease-in-out;
+			}
+
+			input[type=text]:focus {
+ 			width: 100%;
+			}
+	</style>
+</head>
+<body>
+	<div class="hero">
+		<div class="nav-bar">
+			<div class="nav-links" id="nav-links">
+				<i class="fa fa-times" onclick="closeMenu()"></i>
+				<ul>
+					<a href="project.php"><li>COLLEGE</li></a>
+					<a href="projectA.php"><li>DEPARTMENT</li></a>
+					<a href="projectB.php"><li>COURSE</li></a>
+					<a href="projectC.php"><li>INSTRUCTOR</li></a>
+					<a href="projectD.php"><li>STUDENT</li></a>
+					<a href="#"><li>SECTION</li></a><br>
+				</ul>
+				</form>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		<form>
+			<input autocomplete="off"  type="text" name="search" placeholder="Search..">
+		</form>
+		</div>
+		<div class="banner-title">
+			<h1>UNIVERSITY <span>MANAGEMENT.</span></h1>
+			<button type="button" class="btn">EXPLORE</button>
+		</div>
+		<div class="vertical-bar">
+			<div class="search-icon">
+				<i class="fa fa-th-list"></i>
+				<i class="fa fa-search"></i>
+			</div>
+			<div class="social-icons">
+				<a href="https://www.facebook.com" target="_blank">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.instagram.com" target="_blank">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a href="https://www.twitter.com" target="_blank">
+					<i class="fa fa-twitter"></i>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+	<script>
+		var show = document.getElementById("nav-links");
+		function showMenu(){
+			show.style.right = "0";
+
+		}
+		function closeMenu(){
+			show.style.right = "-60px";
+
+		}
+	</script>
+</body>
+</html>

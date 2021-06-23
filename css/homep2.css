@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url('../images/udm.png');
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+.nav-bar{
+	display: flex;
+	padding: 40px 30px;
+}
+.nav-links{
+	flex: 1;
+}
+.nav-links ul{
+	margin-left: 50px;
+	display: inline;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 25px;
+}
+.nav-links ul a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0;
+	height: 2px;
+	background: yellow;
+	display: block;
+	margin: auto;
+	transition: .3s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.banner-title{
+	margin: 80px 130px;
+	color: #fff;
+}
+.banner-title .btn{
+	padding: 10px 20px;
+	border: 0;
+	background: yellow;
+	font-weight: bold;
+	cursor: pointer;
+}
+.banner-title h1{
+	font-size: 50px;
+	margin-bottom: 30px; 
+}
+.banner-title h1 span{
+	color: yellow;
+}
+.vertical-bar{
+	height: 100%;
+	background: #000;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.search-icon{
+	height: 60%;
+	width: 80px;
+}
+.search-icon .fa{
+	margin: 45px 23px;
+	display: block;
+	color: #fff;
+	font-size: 25px;
+	cursor: pointer;
+}
+.social-icons{
+	height: 30%;
+	width: 80px;
+	background: yellow;
+	text-align: center;
+	padding-top: 27%;
+	bottom: 0;
+	position: absolute;
+}
+.social-icons .fa{
+	margin: 15px 23px;
+	display: block;
+	padding: 8px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.nav-bar .fa{
+	display: none;
+}
+@media(max-width: 700px){
+	.vertical-bar{
+		display: none;
+	}
+	.banner-title{
+		margin: 80px 40px;
+	}
+	.banner-title h1{
+		font-size: 50px;
+	}
+	.nav-bar{
+		padding: 10px 30px;
+	}
+	.fa-bars{
+		position: absolute;
+		right: 20px;
+		top: 10px;
+	}
+	.nav-bar.fa{
+		display: block;
+		color: #fff;
+		margin: 10px 25px;
+		font-size: 22px;
+		cursor: pointer;
+	}
+	.nav-links{
+		height: 100vh;
+		width: 200px;
+		background: #000;
+		top: 0;
+		right: -60px;
+		position: absolute;
+		text-align: left;
+		z-index: 2;
+		transition: 0.5s;
+	}
+	.nav-links ul a{
+		display: block;
+	}
+	.nav-links .btn{
+		float: none;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}

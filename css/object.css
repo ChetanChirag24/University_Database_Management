@@ -1,0 +1,9 @@
+body{
+    display: table;
+}
+div{
+    width: 30%;
+    background:#00ff00;
+    display: table-cell;
+    font-style: italic;
+}

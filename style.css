@@ -1,0 +1,15 @@
+span{
+    height: 50px;
+    width: 75px;
+    background:#00ff00;
+}
+div{
+    height: 100px;
+    width: 45%;
+    background:#00ffff;
+}
+p{
+    background:#ff00ff;
+    height: 100px;
+    width: 200px;
+}
